@@ -1,13 +1,19 @@
 #socialheader {
-    display: inline-flex;
+   
     background-color: red;
     display: block;
-     color: white;
-     text-align: center;
-     padding: 16px;
-     text-decoration: none;
-     font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
 
+#socialul {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+}
 
 @font-face {
     font-family: "Apfel";
