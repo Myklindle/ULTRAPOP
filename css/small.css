@@ -1,0 +1,13 @@
+#menu {
+    margin-top: 0px;
+    font-family: 'Segoe UI', Tahoma, Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: red;
+}
+
+@font-face {
+    font-family: "Apfel";
+    src: url("/Users/mlindle/Documents/GitHub/ULTRAPOP/ApfelGrotezk-Regular.woff2") format("woff2"),
+         url("/Users/mlindle/Documents/GitHub/ULTRAPOP/ApfelGrotezk-Regular.woff") format("woff");
+}
