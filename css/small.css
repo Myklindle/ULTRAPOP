@@ -1,23 +1,41 @@
+
 #socialheader {
    
     background-color: red;
-    display: block;
+    display: flex;
     color: white;
     text-align: center;
     padding: 16px;
     text-decoration: none;
     font-weight: bold;
+    font-family: Apfel Grotezk Regular;
 
+}
+
+#mainmenu {
+    background-color: red;
+    display: flex;
+    font-family: Apfel Grotezk Regular;
+    
 }
 
 #socialul {
     display: flex;
+    flex-wrap: nowrap;
     list-style-type: none;
     flex-direction: row;
+   
+}
+
+#footer {
+display: flex;
+flex-direction: column;
+background-color: red;
+font-family: Apfel Grotezk Regular;
 }
 
 @font-face {
-    font-family: "Apfel";
+    font-family: Apfel Grotezk Regular;
     src: url("ApfelGrotezk-Regular.woff2") format("woff2"),
          url("ApfelGrotezk-Regular.woff") format("woff");
 }
