@@ -19,6 +19,16 @@
     
 }
 
+.rotate90 {
+    transform: rotate(90deg);
+}
+
+.rotate270 {
+    transform: rotate(270deg);
+}
+   
+
+
 #socialul {
     display: flex;
     flex-wrap: nowrap;
