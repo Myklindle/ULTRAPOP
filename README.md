@@ -12,6 +12,14 @@ Museum - A page to shocase Pauls collection of toys
 Originals - a Page to showcase Resin toys made in house.
 Store - A link to the existing commerce page for the store.
 Would like to present a grid, hope to make it scroll, with icons of options
+footer with contact info including contact us Javascript form
 
-footer with contact info and fake newsletter (hope to make this real one day)
+**Code Louisville info**
+3 Features included:
+CSS Feature - Flex Box
+(EXPLAINATION OF IMPLEMENTATION HERE )
+JavaScript Feature - Contact us Form (Must VALIDATE SOMETHING)
+Additional Feature - 
+Additional Feature
+
 

@@ -1,7 +1,45 @@
+*{
+    background-color: red;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font: normal 16px "Apfel Grotezk-Regular", sand-serif;
+    color: white;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    cursor:pointer;
+    opacity: 0.9;
+}
+a:hover{
+    opacity: 1;
+}
+
+.round{
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+.button{
+    border: 3px solid white;
+    border-radius: 10%;
+    width: 150px;
+    height: 150px;
+
+}
+
+ul, nav{
+    list-style: none;
+}
 
 #socialheader {
    
-    background-color: red;
     display: flex;
     color: white;
     text-align: center;
@@ -13,9 +51,8 @@
 }
 
 #mainmenu {
-    background-color: red;
     display: flex;
-    font-family: Apfel Grotezk Regular;
+    font-family: Apfel Grotezk-Regular;
     
 }
 
@@ -40,7 +77,6 @@
 #footer {
 display: flex;
 flex-direction: column;
-background-color: red;
 font-family: Apfel Grotezk Regular;
 }
 
