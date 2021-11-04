@@ -6,7 +6,7 @@
 }
 
 body{
-    font: normal 16px "Apfel Grotezk-Regular", sand-serif;
+    font: normal 16px 'ApfelGrotezk-Regular';
     color: white;
     text-align: center;
 }
@@ -35,12 +35,10 @@ a:hover{
 
 }
 
-ul, nav{
-    list-style: none;
-}
+
 
 #socialheader {
-   
+    
     display: flex;
     color: white;
     text-align: center;
@@ -57,6 +55,8 @@ ul, nav{
     text-align: left;
     top: 20%px;
     width: 100%;
+    
+    
     
 }
 .section{
@@ -89,13 +89,13 @@ flex-direction: column;
 padding: 60px 0;
 text-align: center;
 align-items: center;
-font-family: Apfel Grotezk Regular;
+font-family: 'ApfelGrotezk-Regular';
 }
 
 @font-face {
-    font-family: Apfel Grotezk Regular;
-    src: url("ApfelGrotezk-Regular.woff2") format("woff2"),
-         url("ApfelGrotezk-Regular.woff") format("woff");
+    font-family: 'ApfelGrotezk-Regular';
+    src: url("css/ApfelGrotezk-Regular.woff2") format("woff2"),
+         url("css/ApfelGrotezk-Regular.woff") format("woff");
 }
 
 @media(max-width: 1200px){
@@ -119,16 +119,24 @@ font-family: Apfel Grotezk Regular;
         display: flex;
   flex-direction: row; 
   flex-wrap: wrap;
+  }
+  
+
+ 
+  
     }
+    .b
 
     section{
             padding: 10px 30px;
         }
+
 
 ul.grid{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
 }
 }
