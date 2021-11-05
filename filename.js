@@ -1,9 +1,9 @@
-alert("Select OK to forfeit all likeness rights");
+alert("Press OK And Forfeit All Likeness Rights");
 
 // this is how you comment in JS mike
 
 /* this
-is 
+is 50
 for a multiline
 comment*/
 

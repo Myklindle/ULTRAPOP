@@ -83,6 +83,56 @@ align-items: center;
    
 }
 
+.newsletter{
+    
+    font-family: 'ApfelGrotezk-Regular';
+    margin: 0 auto;
+    text-align: center;
+    max-width: 330px;
+    padding: 50px 30px;
+    border-radius: 5px;
+    color: white;
+}
+
+
+.newsletter input{
+    
+    font-family: 'ApfelGrotezk-Regular';
+    border-radius: 3px;
+    background-color: white;
+    width: 222px;
+    height: 50px;
+    border: 3px;
+    padding: 0 20px;
+    color:red;
+    margin-bottom: 10px;
+    outline: none;
+    box-sizing: border-box;
+    font-size: 16px ;
+}
+::placeholder{
+    color: grey;
+    text-align: center;
+    
+}
+.newsletter button{
+    border: 1px solid white;
+    border-radius: 3px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    padding: 0px 28px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.newsletter button:hover{
+    background-color: black;
+    border-color: white;
+    font-size: 16px;
+}
+
+
+
 #footer {
 display: flex;
 flex-direction: column;
@@ -137,6 +187,6 @@ ul.grid{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
 }
+    
 }
