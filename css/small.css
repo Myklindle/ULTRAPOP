@@ -94,8 +94,8 @@ font-family: 'ApfelGrotezk-Regular';
 
 @font-face {
     font-family: 'ApfelGrotezk-Regular';
-    src: url("css/ApfelGrotezk-Regular.woff2") format("woff2"),
-         url("css/ApfelGrotezk-Regular.woff") format("woff");
+    src: url("ApfelGrotezk-Regular.woff2") format("woff2"),
+         url("ApfelGrotezk-Regular.woff") format("woff");
 }
 
 @media(max-width: 1200px){
@@ -107,7 +107,7 @@ font-family: 'ApfelGrotezk-Regular';
         width: 100%;
     }
     section{
-        padding: 100px 50px;
+        padding: 30px 50px;
     }
 
 @media(max-width: 768px){
