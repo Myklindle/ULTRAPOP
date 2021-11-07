@@ -17,9 +17,23 @@ a{
     cursor:pointer;
     opacity: 0.9;
 }
+
 a:hover{
     opacity: 1;
     color: black;
+}
+
+.menuButtons{
+    
+    position: absolute;
+    border: 3px solid white;
+    width: 30%;
+    color: #fff;
+    padding: 10px 10px 10px;
+    display:flex;
+    flex-direction: column;
+    
+    
 }
 
 .round{
@@ -35,18 +49,9 @@ a:hover{
 
 }
 
-
-
-#socialheader {
-    
-    display: flex;
-    color: white;
-    text-align: center;
-    padding: 16px;
-    text-decoration: none;
-    font-weight: bold;
-    z-index: 10;
-
+.headerimage{ 
+    position: flex;
+    width: 25%;
 }
 
 #mainmenu {
@@ -55,10 +60,8 @@ a:hover{
     text-align: left;
     top: 20%px;
     width: 100%;
-    
-    
-    
 }
+
 .section{
 display: flex;
 flex-direction: column;
@@ -79,7 +82,9 @@ align-items: center;
     display: flex;
     flex-wrap: nowrap;
     list-style-type: none;
-    flex-direction: row;
+    flex-direction: column;
+    padding: 50px 30px;
+    
    
 }
 
@@ -131,6 +136,11 @@ align-items: center;
     font-size: 16px;
 }
 
+.main>newsletter-form>#success {
+
+}
+
+
 
 
 #footer {
@@ -148,45 +158,53 @@ font-family: 'ApfelGrotezk-Regular';
          url("ApfelGrotezk-Regular.woff") format("woff");
 }
 
-@media(max-width: 1200px){
+@media(min-width: 1200px){
     #mainmenu {
         display: flex;
-        position: absolute;
+        position: fixed;
         text-align: left;
-        top: 20%px;
+        top: 30%px;
         width: 100%;
     }
-    section{
+
+    .section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         padding: 30px 50px;
     }
 
-@media(max-width: 768px){
-    .headerimage{ width: 100%;
-    }
-
-    .mainmenu{
-        list-style: none;
+    .productGrid{
         display: flex;
-  flex-direction: row; 
-  flex-wrap: wrap;
-  }
-  
-
- 
-  
     }
-    .b
+  
 
-    section{
-            padding: 10px 30px;
-        }
-
-
-ul.grid{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-    
-}
+@media(min-width: 768px){
+    .menuButtons{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        position: absolute;
+        border: 3px solid white;
+        width: 100%;
+        color: #fff;
+        padding: 4px 4px 4px;
+        justify-content: space-around;
+         list-style-type:none;  
+            background-color: rgba(0,0,0,.7);
+            position: fixed;
+            top:10px;
+            left:0;
+            width: 100%;
+            z-index: 10;
+            align-items: center;
+            color: #fff;
+            padding: 35px 100px 20px;
+        
+    }
+    .headerimage{ 
+        position: flex;
+        width: 100%; 
+        margin-top: 100px;
+    }
+  }

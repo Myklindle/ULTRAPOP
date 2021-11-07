@@ -6,9 +6,11 @@
 
         <link rel="preload" href="css/ApfelGrotezk-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous"> 
         <link rel="icon"  href="images/favicon.png">
+        <script src="https://kit.fontawesome.com/6e157fda21.js" crossorigin="anonymous"></script>
         <link href="css/small.css" rel="stylesheet">
         <link href="css/medium.css" rel="stylesheet">
         <link href="css/large.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         
         <title>ULTRAPOP | MAIN</title> 
     
@@ -18,34 +20,34 @@
        <!-- <div id="fb-root"></div> 
         <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0" nonce="iDKPbad4"></script> 
         -->
-        <header id="socialheader"> 
+        <header> 
           
-             <!-- <ul id= socialul>
-                <li>Twitter<a href="https://twitter.com/ultra_paul?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @ultra_paul</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></a> </li>
-                <li>Facebook<div class="fb-like" data-href="https://www.facebook.com/UltraPopShop/" data-width="" data-layout="standard" data-action="like" data-size="small" data-share="true"></div> </li>
-                <li>Instagram</li>
-                <li>Pinterest</li>
+              <ul id= socialul>
+                <li><a href="https://twitter.com/ultra_paul?ref_src=twsrc%5Etfw" target="_blank"><i class="fa fa-twitter-square"></i></a></li>
+                <li><a href="https://www.facebook.com/UltraPopShop/" target="_blank"><i class="fa fa-facebook-square"></i></li>
+                <li><a href="https://twitter.com/ultra_paul?ref_src=twsrc%5Etfw" target="_blank"><i class="fa fa-snapchat-square"></i></a></li>
+                <li><a href="https://twitter.com/ultra_paul?ref_src=twsrc%5Etfw" target="_blank"><i class="fa fa-pinterest-square"></i></a></li>
               </ul>
-              -->
-             
-            <img src="images/Ultra-Judas_fin.svg" alt="Ultra Judas" title= "hovertextgoeshere" width="55%" class="round headerimage">
+            
+        
+            <img src="images/Ultra-Judas_fin.svg" alt="Ultra Judas" title= "Ultra Judas"  class="round headerimage">
        </header>
        
        <nav>
         <h1 id="mainmenu" >
           <ul class="menuButtons">
-            <li><a href="#top">Top</a></li>
+            <li><a href="https://www.ultrapopshop.com" target="_blank">Shop</a></li>
             <li><a href="#newArrivals">New Arrivals</a></li>
             <li><a href="#brands">Brands</a></li>
             <li><a href="#events">Events</a></li>
             <li><a href="#museum">Museum</a></li>
             <li><a href="#originals">Originals</a></li></li>
-            <li><a href="https://www.ultrapopshop.com" target="_blank">Shop</a></li>
+            
           </ul>
          </h1> 
       </nav>
       
-      <main class="grid">
+      <main class="productGrid">
         <section id="newArrivals">
           <h1> New Arrivals</h1>
            <img src="images/Store Images/storeImage4.jpg" class="rotate90 button"> 
@@ -78,11 +80,13 @@
 <div class="newsletter">
   <h1>Enter Your Email To Get All The Latest News On The Pop!</h1>
 
-<form >
-  <input type="email" placeholder="Enter Your Deets" required>
+  <form id="newsletter-form" >
+  <input type="email" placeholder="Give us Deets" required>
   <br>
   <button type="submit">Submit Your Deets</button> 
-</form> 
+  </div>
+  <div id="success">Welcome To The Party Pal</div>
+  </form> 
 </div>
 
 
@@ -91,13 +95,27 @@
         <p>Our Address is</p>
         <address> ULTRAPOP - 960 Barret Ave, Louisville, KY 40204</address>
         <p>Contact us via <a href="mailto:myklindle@gmail.com">email</a> or at <a href="tel:5024791045">(502)479-1035</a>
-        <small>&copy;2021 ULTRAPOP - All rights reserved</small>
+        <small>&copy;<script>document.write(new Date().getFullYear())</script> ULTRAPOP - No rights reserved</small>
         <p><small>Created by myklindle</a></small></p>
   
      </footer>
-   
+    <Script type="text/javascript">
+      $(document).ready(function(){
+      $('a[href^="#"]').on('click',function (e) {e.preventDefault();
+  
+        var target = this.hash,
+        $target = $(target);
+  
+        $('html, body').stop().animate({
+            'scrollTop': $target.offset().top
+        }, 900, 'swing', function () {
+            window.location.hash = target;
+        });
+    });
+  });
+    </script>
     <script src="filename.js"></script>
-    <script src="utils.js"></script>
+    
       
     </body>
 </html>

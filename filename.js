@@ -1,6 +1,4 @@
-alert("Press OK And Forfeit All Likeness Rights");
-
-// this is how you comment in JS mike
+alert("Press OK And Forfeit All Likeness Rights"); //gag message
 
 /* this
 is 50
@@ -20,3 +18,6 @@ return code;
 }
 let secretCode
 console.log( getSecretCode(2) ); 
+
+
+$("#success").hide()
