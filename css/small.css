@@ -25,7 +25,8 @@ a:hover{
 
 .menuButtons{
     
-    position: absolute;
+    position: fixed;
+    left: 1px;
     border: 3px solid white;
     width: 30%;
     color: #fff;
@@ -80,10 +81,14 @@ align-items: center;
 
 #socialul {
     display: flex;
+    flex-flow: column;
     flex-wrap: nowrap;
+    justify-content: space-between;
     list-style-type: none;
     flex-direction: column;
-    padding: 50px 30px;
+    padding: 25px 30px 12px;
+    border: 3px solid white;
+    
     
    
 }
@@ -159,6 +164,14 @@ font-family: 'ApfelGrotezk-Regular';
 }
 
 @media(min-width: 1200px){
+
+    .headerimage{ 
+        position: flex;
+        
+        
+    }
+
+
     #mainmenu {
         display: flex;
         position: fixed;
@@ -207,4 +220,4 @@ font-family: 'ApfelGrotezk-Regular';
         width: 100%; 
         margin-top: 100px;
     }
-  }
+}
