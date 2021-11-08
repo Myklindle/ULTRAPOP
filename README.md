@@ -7,6 +7,8 @@ The Page has links to social media accounts Icons by Font Awesome
 
 Header image and Favicons provided by ANGRYBLUE.
 
+All Images have been converted, and optimized.
+
 Sections include New Arrivals, Brands, Events, Museum, Originals and Store.
 
 Newsletter Sign up sheet used to hoard Email addys.
