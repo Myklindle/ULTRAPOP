@@ -1,0 +1,32 @@
+
+
+
+@media(min-width: 768px){
+    .menuButtons{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        position: absolute;
+        border: 3px solid white;
+        width: 100%;
+        color: #fff;
+        padding: 4px 4px 4px 0px;
+        justify-content: space-around;
+         list-style-type:none;  
+            background-color: rgba(0,0,0,.7);
+            position: fixed;
+            top:10px;
+            left:0;
+            width: 100%;
+            z-index: 10;
+            align-items: center;
+            color: #fff;
+            padding: 35px 100px 20px;
+        
+    }
+    .headerimage{ 
+        position: flex;
+        width: 25%; 
+        margin-top: 100px;
+    }
+}

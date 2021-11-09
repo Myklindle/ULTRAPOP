@@ -1,0 +1,28 @@
+@media(min-width: 1200px){
+
+    .headerimage{ 
+        display: none;
+    }
+    .desktopheaderimage{
+        display: flex;
+        max-width: 100%;
+        padding: 100px 0px 0px 0px;
+    }
+
+    #mainmenu {
+        display: flex;
+        position: absolute;
+        text-align: left;
+        width: 100%;
+    }
+
+    .section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 50px;
+    }
+
+    .productGrid{
+        display: flex;
+    }

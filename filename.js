@@ -1,10 +1,14 @@
-alert("Press OK And Forfeit All Likeness Rights"); //gag message
+/*alert("Press OK And Forfeit All Likeness Rights"); */ //gag message
 
-/* this
-is 50
-for a multiline
-comment
-*/
+function showPopUp() {
+    var cookie = $.cookie('the_cookie');
+    if(!cookie){
+        alert("Press OK And Forfeit All Likeness Rights");
+        $.cookie('the_cookie', 'the_value');
+    }
+}
+showPopUp();
+
 
 let myFunction = function loggingFunction (message) { 
  console.log(message);
