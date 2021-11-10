@@ -29,8 +29,28 @@ a:hover{
     background-color: black;
 }
 
+#underConstruction1{
+    flex: content;
+    color: black;
+    width: 100%;
+    font-size: 44px;
+    background-color:white;
+}
+
+#underConstruction2{
+    flex: content;
+    color: white;
+   
+    font-size: 44px;
+    
+}
+
 #constructionImage{
     height: 100vh;
+}
+
+#constructionImage2{
+    object-fit: fill;
 }
 .menuButtons{
     
@@ -59,6 +79,7 @@ a:hover{
     width: 150px;
     height: 150px;
 
+
 }
 
 .headerimage{ 
@@ -67,6 +88,9 @@ a:hover{
     
 }
 .desktopheaderimage{
+    display: none;
+}
+.ipadheaderimage{
     display: none;
 }
 .section{

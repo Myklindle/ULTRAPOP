@@ -8,7 +8,9 @@
         max-width: 100%;
         padding: 100px 0px 0px 0px;
     }
-
+    .ipadheaderimage{
+        display: none;
+    }
     #mainmenu {
         display: flex;
         position: absolute;
@@ -25,4 +27,8 @@
 
     .productGrid{
         display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        padding: 0px 0px 0px 0px;
     }
