@@ -176,18 +176,12 @@ align-items: center;
     border-color: white;
     font-size: 16px;
 }
+.flex-grid{
+    display: flex;
+    flex-direction: row;
+    flex
+}
 
-.flex-grid {
-    display: flex;
-  }
-  .flex-grid .col {
-    flex: 1;
-  }
-  .flex-grid-thirds {
-    display: flex;
-    justify-content: space-between;
-  }
-  
 #footer {
 display: flex;
 flex-direction: column;
