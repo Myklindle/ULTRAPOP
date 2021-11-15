@@ -47,9 +47,14 @@
     .productGrid{
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-between;
+       
+
     }
     .product{
-        flex: 1;
-    }
+        flex: 2;
+        justify-content: start;
+        align-items: center;
 
+}
 }
