@@ -193,3 +193,16 @@ font-family: 'ApfelGrotezk-Regular';
     src: url("ApfelGrotezk-Regular.woff2") format("woff2"),
          url("ApfelGrotezk-Regular.woff") format("woff");
 }
+
+@font-face {
+    font-family: BindlestiffNF;
+    src: url("BindlestiffNF.otf") format("opentype");
+}
+
+@font-face {
+    font-family: BindlestiffNF;
+    font-weight: bold;
+    src: url("BindlestiffShadowNF.otf") format("opentype");
+}
+
+
