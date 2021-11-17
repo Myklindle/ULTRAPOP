@@ -132,6 +132,9 @@ align-items: center;
     color: white;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
 
 .newsletter input{
     
