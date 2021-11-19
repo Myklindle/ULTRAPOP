@@ -24,7 +24,7 @@ const storeScroll = () => {
     document.documentElement.dataset.scroll = window.scrollY;
   };
 
-document.addEventListener("scroll", storeeScroll);  
+document.addEventListener("scroll", storeScroll);  
 
   storeScroll
 ();
